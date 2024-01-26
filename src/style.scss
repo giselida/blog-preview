@@ -1,9 +1,11 @@
 @import "./../reset.scss";
 :root {
   --color-black: #000;
+  --color-dark-gray: #252525;
   --color-white: #ffffff;
   --color-yellow: #f4d04e;
   --color-gray: #808080;
+  --color-light-gray: #ffffffb8;
 }
 body {
   display: flex;
@@ -17,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     .card {
       display: flex;
       border-radius: 15px;
@@ -28,12 +30,64 @@ body {
       background-color: var(--color-white);
       width: 375px;
       gap: 15px;
+      transition: box-shadow 0.5s ease-in-out;
       .carousel {
         display: flex;
         align-items: center;
+        justify-content: center;
+        width: 100%;
+        .container {
+          position: relative;
+          display: block;
+          min-width: 375px;
+          height: 250px;
+        }
         img {
+          position: absolute;
+          opacity: 0;
           border-radius: 10px;
           width: 375px;
+          height: 250px;
+          transition: opacity 0.5s ease-out;
+          &.active {
+            opacity: 1;
+          }
+        }
+      }
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .user-image {
+          border-radius: 50%;
+          width: 34px;
+        }
+      }
+      .next,
+      .previous {
+        border-radius: 50%;
+        border: 1px solid var(--color-dark-gray);
+        display: flex;
+        background-color: var(--color-light-gray);
+        cursor: pointer;
+        z-index: 1;
+        span {
+          line-height: normal;
+          text-align: center;
+          color: var(--color-dark-gray);
+        }
+      }
+      .next {
+        position: relative;
+        left: -25px;
+      }
+      .previous {
+        position: relative;
+        right: -25px;
+
+        span {
+          position: relative;
+          left: 5px;
         }
       }
 
@@ -54,6 +108,10 @@ body {
       h1 {
         font-size: 24px;
         font-weight: 700;
+        &:hover {
+          color: var(--color-yellow);
+          cursor: pointer;
+        }
       }
 
       p {
@@ -63,5 +121,13 @@ body {
         line-height: 20px;
       }
     }
+    &:hover {
+      border-radius: 15px;
+      box-shadow: 7px 7px var(--color-black);
+    }
+  }
+  .attribution {
+    position: fixed;
+    bottom: 0;
   }
 }

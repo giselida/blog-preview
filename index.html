@@ -1,37 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-
     <link rel="stylesheet" href="src/style.scss" />
-
     <title>Blog-preview</title>
   </head>
   <body>
     <main>
       <div class="card">
         <div class="carousel">
-          <img src="./assets/images/layout.png" alt="illustration-article" />
+          <button class="previous">
+            <span class="material-symbols-outlined"> arrow_back_ios </span>
+          </button>
+
+          <div class="container">
+            <img class="item-carousel active" src="./assets/images/layout.png" alt="illustration-article" />
+            <img class="item-carousel" src="./assets/images/html.webp" alt="illustration-article" />
+            <img class="item-carousel" src="./assets/images/css.webp" alt="illustration-article" />
+            <img class="item-carousel" src="./assets/images/javascript.png" alt="illustration-article" />
+          </div>
+
+          <button class="next">
+            <span class="material-symbols-outlined"> arrow_forward_ios </span>
+          </button>
         </div>
-        <div class="learning">Aprendizado</div>
+        <span class="learning">Aprendizado</span>
         <span>Publicado em 25 Jan 2024</span>
         <h1>Fundamentos de HTML e CSS</h1>
         <p>Essas linguagens são a espinha dorsal de todo site, definindo estrutura, conteúdo e apresentação.</p>
         <div class="user">
+          <img class="user-image" src="assets/images/giselida.jpeg" alt="giselida" />
           <div class="user-name">Gisélida C. D Melo</div>
         </div>
       </div>
     </main>
+
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-      <a href="#">Gisélida Cristine de melo</a>.
+      <a href="#">Gisélida Cristine de Melo</a>.
     </div>
     <script type="module" src="src/main.ts"></script>
   </body>
