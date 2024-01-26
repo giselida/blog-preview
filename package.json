@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "vite --port 5173",
     "dev": "vite",
     "build": "tsc && vite build",
+    "watch": "vite build --watch",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.70.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
