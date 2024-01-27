@@ -1,93 +1,126 @@
-# Frontend Mentor - Blog preview card
+<div align="right">
 
-![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://fluffy-squirrel-c8fa4e.netlify.app/)
 
-## Welcome! 👋
+</div>
 
-Thanks for checking out this front-end coding challenge.
+<div align="right">
+  
+  [![Portuguese](https://cdn-icons-png.flaticon.com/32/3022/3022546.png)](README.md)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+</div>
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+<p align="center">
+  <img alt="front-end-mentor-newbie" src=".github/front-end-mentor-newbie.png" width="350px" height="180px"/>
+</p>
 
-## The challenge
+<p align="center"> 
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/giselida/blog-preview?color=3498db&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/giselida/blog-preview?color=3498db&style=for-the-badge&label=Ultimo%20Commit">   
+  <a href="https://github.com/giselida">
+    <img alt="Developed by Gisélida Cristine" src="https://img.shields.io/badge/Developer-Gisélida Cristine de Melo-%3498db?color=3498db&style=for-the-badge&label=Desenvolvedor">
+  </a>  
+  <img alt="Project License" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge&label=licen%C3%A7a"/>   
+   <img alt="Project Status" src="https://img.shields.io/badge/Concluído-%3498db?color=3498db&style=for-the-badge&label=Status">   
+</p>
 
-Your challenge is to build out this blog preview card and get it looking as close to the design as possible.
+<p align="center">
+ <a href="#eye_speech_bubble-visualizar">Visualizar</a> •
+ <a href="#information_source-sobre">Sobre</a> •
+ <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> • 
+ <a href="#brain-conceitos-aplicados">Conceitos</a> •
+ <a href="#girl-autor">Autor</a> •
+ <a href="#balance_scale-licença">Licença</a>
+</p>
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+---
 
-Your users should be able to:
+## :eye_speech_bubble: **Visualizar**
 
-- See hover and focus states for all interactive elements on the page
+<div align="center">
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visualizar: [Clique Aqui](https://fluffy-squirrel-c8fa4e.netlify.app/)
 
-## Where to find everything
+|                            :computer:Desktop                             |                              :iphone: Mobile                               |
+| :----------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| <kbd><img src=".github/previews/desktop-design.jpg" alt="Tablet"/></kbd> | <kbd><img src=".github/previews/frontend-mentor.jpeg" alt="Mobile"/></kbd> |
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+</div>
+  
+---
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## :information_source: _Sobre_
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+<div align="center">
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) <img height="20px" src="images/favicon-32x32.png">
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+---
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+</div>
 
-## Building your project
+## :hammer_and_wrench: _Tecnologias_
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+<div align="center">
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+|            :globe_with_meridians: FrontEnd             |
+| :----------------------------------------------------: |
+|       [HTML 5](https://www.w3schools.com/html/)        |
+|         [SCSS](https://www.sass-lang.com)         |
+| [JAVASCRIPT](https://www.w3schools.com/js/default.asp) |
 
-## Deploying your project
+</div>
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+---
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## :brain: _Conceitos Aplicados_
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+<div align="center">
 
-## Create a custom `README.md`
+|   :page_facing_up:   |
+| :------------------: |
+|     Mobile First     |
+|      HTML Class      |
+|      CSS Class       |
+|       Position       |
+|   Background Image   |
+|   Pseudo Selectors   |
+|    CSS Box Model     |
+|   Size Properties    |
+|       Flex-box       |
+|      MediaQuery      |
+| Arithmetic operators |
+|      Functions       |
+|       variable       |
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+</div>
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+---
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## :girl: _Autor_
 
-## Submitting your solution
+<div align="center">
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+<a href="https://github.com/giselida">
+ <img src="https://avatars.githubusercontent.com/u/121522235?s=400&u=9617fb4d837987d46405673bbe32605346717d5a&v=4"  width="100px;" alt="Profile Photo Gisélida Cristine de Melo"/>
+ <br/>
+ <sub><b>Gisélida Cristine de Melo</b></sub>
+</a>
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Desenvolvido com ❤️ por Gisélida Cristine de Melo 👋🏽 Meus Contatos!
 
-## Sharing your solution
+[![Linkedin Badge](https://img.shields.io/badge/-Gisélida_Cristine-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/giselida-cristine/)
+[![Github Badge](https://img.shields.io/badge/-Gisélida_Cristine-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/giselida)
 
-There are multiple places you can share your solution:
+</div>
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+---
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+## :balance_scale: _Licença_
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+<div align="center">
 
-## Got feedback for us?
+Copyright ©️ 2024 [Gisélida Cristine de Melo ](https://github.com/giselida).<br />
+This project is licensed by [MIT](./LICENSE).
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+</div>
