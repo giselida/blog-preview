@@ -14,7 +14,7 @@ body {
   align-items: center;
   font-family: "Figtree", sans-serif;
   background-color: var(--color-yellow);
-  height: 90vh;
+  min-height: 100vh;
   main {
     display: flex;
     justify-content: center;
@@ -28,7 +28,8 @@ body {
       padding: 20px;
       flex-direction: column;
       background-color: var(--color-white);
-      width: 375px;
+      max-width: 375px;
+      width: 100%;
       gap: 15px;
       transition: box-shadow 0.5s ease-in-out;
       .carousel {
