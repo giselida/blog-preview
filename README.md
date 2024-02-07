@@ -1,6 +1,6 @@
 <div align="right">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://fluffy-squirrel-c8fa4e.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3c52228-d2d0-4ecd-a86e-d5663fc30ca7/deploy-status)](https://blog-giselida-melo.netlify.app/)
 
 </div>
 
@@ -39,7 +39,7 @@
 
 <div align="center">
 
-Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visualizar: [Clique Aqui](https://fluffy-squirrel-c8fa4e.netlify.app/)
+Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visualizar: [Clique Aqui](https://blog-giselida-melo.netlify.app/)
 
 |                            :computer:Desktop                             |                              :iphone: Mobile                               |
 | :----------------------------------------------------------------------: | :------------------------------------------------------------------------: |
@@ -49,7 +49,7 @@ Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visuali
   
 ---
 
-## :information_source: _Sobre_
+## :information*source: \_Sobre*
 
 <div align="center">
 
@@ -59,14 +59,14 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 </div>
 
-## :hammer_and_wrench: _Tecnologias_
+## :hammer*and_wrench: \_Tecnologias*
 
 <div align="center">
 
 |            :globe_with_meridians: FrontEnd             |
 | :----------------------------------------------------: |
 |       [HTML 5](https://www.w3schools.com/html/)        |
-|         [SCSS](https://www.sass-lang.com)         |
+|           [SCSS](https://www.sass-lang.com)            |
 | [JAVASCRIPT](https://www.w3schools.com/js/default.asp) |
 
 </div>
@@ -116,7 +116,7 @@ Desenvolvido com ❤️ por Gisélida Cristine de Melo 👋🏽 Meus Contatos!
 
 ---
 
-## :balance_scale: _Licença_
+## :balance*scale: \_Licença*
 
 <div align="center">
 
